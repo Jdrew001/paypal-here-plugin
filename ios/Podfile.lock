@@ -1,0 +1,46 @@
+PODS:
+  - Capacitor (2.4.1):
+    - CapacitorCordova
+  - CapacitorCordova (2.4.1)
+  - PayPalHereSDKv2 (2.1.0320258000):
+    - PayPalHereSDKv2/Debug (= 2.1.0320258000)
+    - PPRetailInstrumentInterface
+    - SimpleKeychain (~> 0.6.1)
+    - TrustKit (~> 1.6.2)
+  - PayPalHereSDKv2/Debug (2.1.0320258000):
+    - PPRetailInstrumentInterface
+    - SimpleKeychain (~> 0.6.1)
+    - TrustKit (~> 1.6.2)
+  - PPRetailInstrumentInterface (1.1.8)
+  - SimpleKeychain (0.6.1)
+  - TrustKit (1.6.5)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - PayPalHereSDKv2
+
+SPEC REPOS:
+  trunk:
+    - PayPalHereSDKv2
+    - PPRetailInstrumentInterface
+    - SimpleKeychain
+    - TrustKit
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: 12f6492ebd90494ff60f37b57718f5f1b5d841eb
+  CapacitorCordova: bf294ab653635d3aa5d7ec1512753f01df7b7149
+  PayPalHereSDKv2: c313921b4f337124a1db7843392f4c4430228aef
+  PPRetailInstrumentInterface: 94522052d6f9ee00ea3699e3e7cefa0c1adfc8ad
+  SimpleKeychain: 150d76f3b9200de58f033228f6e976c6241a221c
+  TrustKit: 073855e3adecd317417bda4ac9e9ac54a2e3b9f2
+
+PODFILE CHECKSUM: b57aa25eb7f4a03353b437aa1017ac2b1cc6ea97
+
+COCOAPODS: 1.9.3
